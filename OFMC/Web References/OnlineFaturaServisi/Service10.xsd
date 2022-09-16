@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GetLUSadress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="LUSusr" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LUSpwd" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLUSadressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetLUSadressResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TerminalKullaniciKontrol">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcUser" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcPass" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="CASIOSysGetDeviceIDCode" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MSGetDeviceUniqueID" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="User" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Pass" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TerminalKullaniciKontrolResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="TerminalKullaniciKontrolResult">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AboneBilgi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcUser" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcPass" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SayacNo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="GazAboneNo" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AboneBilgiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="AboneBilgiResult">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FaturaKes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcUser" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcPass" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SayacNo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="GazAboneNo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Endeks" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="TerminalNo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SicilNo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="PersonelKodu" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Mesaj" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Durum" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FaturaKesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="FaturaKesResult">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FaturaSureti">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcUser" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcPass" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="OkunanSayacNo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="GazAboneNo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="FaturaSeri" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="FaturaNo" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FaturaSuretiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="FaturaSuretiResult">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TerminalGPSKonumKaydet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcUser" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcPass" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="TerminalNo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Latitude" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Longitude" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="GSMPos" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Zaman" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TerminalGPSKonumKaydetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="TerminalGPSKonumKaydetResult">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HataKodlariniOku">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcUser" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcPass" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HataKodlariniOkuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="HataKodlariniOkuResult">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="YetkiliGSMler">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcUser" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcPass" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="YetkiliGSMlerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="YetkiliGSMlerResult">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GSMLogKaydet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcUser" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcPass" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="TerminalNo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="GSMno" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="GSMisim" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Mesaj" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Zaman" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Aktif" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GSMLogKaydetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="GSMLogKaydetResult">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OlayLogKaydet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcUser" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SvcPass" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="TerminalNo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Olay" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Zaman" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OlayLogKaydetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="OlayLogKaydetResult">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

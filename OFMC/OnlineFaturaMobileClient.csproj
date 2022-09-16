@@ -1,0 +1,288 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A8D5C4D-5C58-4E58-8EE5-39D67B604049}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnlineFaturaMobileClient</RootNamespace>
+    <AssemblyName>OnlineFaturaMobileClient</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.2</OSVersion>
+    <DeployDirSuffix>OnlineFaturaMobileClient</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>Images\Online.ico</ApplicationIcon>
+    <StartupObject>OnlineFaturaMobileClient.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CameraLibNet, Version=2.1.1.6336, Culture=neutral, PublicKeyToken=4079e79a5891f674">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\CASIO\MBSys\WindowsCE\CameraLibNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Cp780LibCS, Version=2.1.1.6336, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\CASIO\MBSys\WindowsCE\Cp780LibCS.dll</HintPath>
+    </Reference>
+    <Reference Include="ImagerLibNet, Version=2.1.1.6336, Culture=neutral, PublicKeyToken=4079e79a5891f674">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\CASIO\MBSys\WindowsCE\ImagerLibNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="Microsoft.WindowsMobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.WindowsMobile.PocketOutlook, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.WindowsMobile.Samples.Location, Version=1.0.4607.27061, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.WindowsMobile.Status, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="mscorlib" />
+    <Reference Include="PrinterLibNet, Version=2.1.1.6336, Culture=neutral, PublicKeyToken=4079e79a5891f674">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\CASIO\MBSys\WindowsCE\PrinterLibNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="SystemLibnet, Version=2.1.1.6336, Culture=neutral, PublicKeyToken=4079e79a5891f674">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\CASIO\MBSys\WindowsCE\SystemLibnet.dll</HintPath>
+    </Reference>
+    <Reference Include="WANGPRSLibNet, Version=2.1.1.6336, Culture=neutral, PublicKeyToken=4079e79a5891f674, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\CASIO\MBSys\WindowsCE\WANGPRSLibNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaFRM.Designer.cs">
+      <DependentUpon>AnaFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="BaglantiTuruFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaglantiTuruFRM.Designer.cs">
+      <DependentUpon>BaglantiTuruFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EvetHayirFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EvetHayirFRM.Designer.cs">
+      <DependentUpon>EvetHayirFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GMM.cs" />
+    <Compile Include="LoginFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginFRM.Designer.cs">
+      <DependentUpon>LoginFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NonFullscreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AnaFRM.resx">
+      <DependentUpon>AnaFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaglantiTuruFRM.resx">
+      <DependentUpon>BaglantiTuruFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvetHayirFRM.resx">
+      <DependentUpon>EvetHayirFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginFRM.resx">
+      <DependentUpon>LoginFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RIL.cs" />
+    <Compile Include="Web References\LUSServisi\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\OnlineFaturaServisi\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AboneBilgisi_Down.png" />
+    <Content Include="Images\AboneBilgisi_Up.png" />
+    <Content Include="Images\accessories_text_editor.png" />
+    <Content Include="Images\Ac_Down.png" />
+    <Content Include="Images\Ac_Up.png" />
+    <Content Include="Images\BildirimBas_Down.png" />
+    <Content Include="Images\BildirimBas_Up.png" />
+    <Content Include="Images\check.png" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\Corners\Corner_CornFlowerBlue.png" />
+    <Content Include="Images\Corners\Corner_DarkOrange.png" />
+    <Content Include="Images\Corners\Corner_DarkSeaGreen.png" />
+    <Content Include="Images\Corners\Corner_DarkSlateGray.png" />
+    <Content Include="Images\Corners\Corner_Fuchsia.png" />
+    <Content Include="Images\Corners\Corner_Purple.png" />
+    <Content Include="Images\Corners\Corner_Red.png" />
+    <Content Include="Images\Corners\Corner_RoyalBlue.png" />
+    <Content Include="Images\Corners\Corner_SaddleBrown.png" />
+    <Content Include="Images\Corners\Corner_SandyBrown.png" />
+    <Content Include="Images\DosyaSil_Down.png" />
+    <Content Include="Images\DosyaSil_Up.png" />
+    <Content Include="Images\Fatura.png" />
+    <Content Include="Images\gnome_edit_delete.png" />
+    <Content Include="Images\gremlins.png" />
+    <Content Include="Images\gtk_refresh.png" />
+    <Content Include="Images\Iptal_Down.png" />
+    <Content Include="Images\Iptal_Up.png" />
+    <Content Include="Images\Kamera_Down.png" />
+    <Content Include="Images\Kamera_Up.png" />
+    <Content Include="Images\Kaydet_Down.png" />
+    <Content Include="Images\Kaydet_Up.png" />
+    <Content Include="Images\kview.png" />
+    <Content Include="Images\List_Red.png" />
+    <Content Include="Images\movies.png" />
+    <Content Include="Images\pictures.png" />
+    <Content Include="Images\Printer_Red.png" />
+    <Content Include="Images\ResimCek_Down.png" />
+    <Content Include="Images\ResimCek_Up.png" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\search2.png" />
+    <Content Include="Images\Security.png" />
+    <Content Include="Images\SuretBas_Down.png" />
+    <Content Include="Images\SuretBas_Up.png" />
+    <Content Include="Images\SuretListele_Down.png" />
+    <Content Include="Images\SuretListele_Up.png" />
+    <Content Include="Images\Sync_Blue.png" />
+    <Content Include="Images\Tamam_Down.png" />
+    <Content Include="Images\Tamam_Up.png" />
+    <Content Include="Images\TekrarBas_Down.png" />
+    <Content Include="Images\TekrarBas_Up.png" />
+    <Content Include="Images\Temizle_Down.png" />
+    <Content Include="Images\Temizle_Up.png" />
+    <Content Include="Images\Yazarkasa.png" />
+    <Content Include="Images\copy.png" />
+    <Content Include="Images\DiyargazLogoKucuk.png" />
+    <Content Include="Images\QuestionMark.png" />
+    <Content Include="Images\keyboard2_black.png" />
+    <Content Include="Images\keyboard2_white.png" />
+    <Content Include="Images\Online.ico" />
+    <Content Include="Images\sinyal.png" />
+    <Content Include="Images\sun_cloudy.png" />
+    <Content Include="Images\sun_shine.png" />
+    <Content Include="Images\Yazarkasa_Down.png" />
+    <Content Include="Images\Yazarkasa_Up.png" />
+    <Content Include="Images\Yenile_Down.png" />
+    <Content Include="Images\Yenile_Up.png" />
+    <Content Include="Images\YuvarlakKoseSolAlt.png" />
+    <Content Include="Images\YuvarlakKoseSolUst.png" />
+    <None Include="Web References\LUSServisi\lus.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://192.168.1.124/OnlineFatura/Service1.svc%3fwsdl">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\OnlineFaturaServisi\</RelPath>
+      <UpdateFromURL>http://192.168.1.124/OnlineFatura/Service1.svc%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.gunelgunel.com/lus.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\LUSServisi\</RelPath>
+      <UpdateFromURL>http://www.gunelgunel.com/lus.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Web References\LUSServisi\lus.wsdl" />
+    <None Include="Web References\LUSServisi\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\OnlineFaturaServisi\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\OnlineFaturaServisi\Service1.wsdl" />
+    <None Include="Web References\OnlineFaturaServisi\Service1.xsd" />
+    <None Include="Web References\OnlineFaturaServisi\Service10.xsd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

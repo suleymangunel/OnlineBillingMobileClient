@@ -1,0 +1,37 @@
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.Properties.Resources.resources
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.csproj.GenerateResource.Cache
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\OnlineFaturaMobileClient.exe
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\OnlineFaturaMobileClient.pdb
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.exe
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.pdb
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\Cp780LibCS.dll
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\ImagerLibNet.dll
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\PrinterLibNet.dll
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\SystemLibnet.dll
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.LoginFRM.resources
+C:\Documents and Settings\XPMUser\My Documents\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.AnaFRM.resources
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\OnlineFaturaMobileClient.exe.config
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\OnlineFaturaMobileClient.exe
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\OnlineFaturaMobileClient.pdb
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\CameraLibNet.dll
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\Cp780LibCS.dll
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\ImagerLibNet.dll
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\Microsoft.WindowsMobile.dll
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\Microsoft.WindowsMobile.PocketOutlook.dll
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\Microsoft.WindowsMobile.Status.dll
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\PrinterLibNet.dll
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\SystemLibnet.dll
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\WANGPRSLibNet.dll
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\Microsoft.WindowsMobile.PocketOutlook.xml
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\Microsoft.WindowsMobile.xml
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\bin\Debug\Microsoft.WindowsMobile.Status.xml
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.AnaFRM.resources
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.BaglantiTuruFRM.resources
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.LoginFRM.resources
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.Properties.Resources.resources
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.csproj.GenerateResource.Cache
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.exe
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.pdb
+C:\Documents and Settings\XPMUser\Belgelerim\Visual Studio 2008\Projects\OnlineFaturaMobileClient\OnlineFaturaMobileClient\obj\Debug\OnlineFaturaMobileClient.EvetHayirFRM.resources
